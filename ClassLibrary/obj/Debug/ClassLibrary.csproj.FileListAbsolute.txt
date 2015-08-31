@@ -1,0 +1,6 @@
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.exe.config
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.exe
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.exe
+c:\users\витюк\documents\visual studio 2015\Projects\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb
