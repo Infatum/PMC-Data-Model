@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
+    /// <summary>
+    /// abstract BaseClass, which 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class Collection<T> : ICollection<T>
     {
         protected ArrayList collectArray;

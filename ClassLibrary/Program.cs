@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +14,13 @@ namespace ClassLibrary
             Position<int> p = new Position<int>();
             Point<int> point = new Point<int>(3, 18);
             Point<int> point2 = new Point<int>(19, 29);
+            WriteLine(p.Count);
             p.Add(point);
             p.Add(point2);
             WriteLine(p.Count);
             WriteLine(p.Contains(point2));
             p.Remove(point2);
+            WriteLine(p.Count);
 
             WriteLine(p.Contains(point2));
             ReadKey();
