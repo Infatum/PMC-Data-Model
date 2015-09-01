@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
+    /// <summary>
+    /// Enumerator for position collection
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class PositionEnumerator<T> : Enumerator<Point<T>> where T : struct
     {
         public PositionEnumerator() { }

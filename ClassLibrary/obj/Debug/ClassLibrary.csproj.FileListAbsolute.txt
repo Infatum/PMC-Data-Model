@@ -14,3 +14,7 @@ C:\Users\Oleg\AppData\Roaming\Skype\My Skype Received Files\ClassLibrary\ClassLi
 C:\Users\Oleg\AppData\Roaming\Skype\My Skype Received Files\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Oleg\AppData\Roaming\Skype\My Skype Received Files\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.Properties.Resources.resources
 C:\Users\Oleg\AppData\Roaming\Skype\My Skype Received Files\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.GenerateResource.Cache
+C:\Users\Витюк\Documents\Visual Studio 2015\Projects\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.Properties.Resources.resources
+C:\Users\Витюк\Documents\Visual Studio 2015\Projects\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.GenerateResource.Cache
+C:\Users\Витюк\Documents\Visual Studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\nunit.framework.dll
+C:\Users\Витюк\Documents\Visual Studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\nunit.framework.xml

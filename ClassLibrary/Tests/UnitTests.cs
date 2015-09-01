@@ -25,7 +25,8 @@ namespace unitTests
 
             var n = new Random();
 
-            for (int i = 0; i < MAX_POINTS; i++) {
+            for (int i = 0; i < MAX_POINTS; i++)
+            {
                 positions.Add(new Point<int>(n.Next(5, 50), n.Next(1, 50)));
             }
         }

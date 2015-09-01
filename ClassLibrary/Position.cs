@@ -7,6 +7,10 @@ using System.Collections;
 
 namespace ClassLibrary
 {
+/// <summary>
+/// Position collection
+/// </summary>
+/// <typeparam name="T"></typeparam>
     public class Position<T> : Collection<Point<T>> where T : struct
     {
         public override void Add(Point<T> point)

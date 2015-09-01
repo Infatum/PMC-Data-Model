@@ -7,7 +7,12 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public abstract class Enumerator<T> : IEnumerator<T>// where T : Point<T>
+    /// <summary>
+    /// Base Class for collection enumerators 
+    /// Realization of IEnumerator interface
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public abstract class Enumerator<T> : IEnumerator<T>
     {
         protected Collection<T> collection;
         protected int index;

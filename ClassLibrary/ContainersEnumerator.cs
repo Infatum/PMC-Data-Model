@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
+    /// <summary>
+    /// Container enumerator
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class ContainersEnumerator<T> : Enumerator<Container<T>> where T : struct
     {
         public ContainersEnumerator() { }

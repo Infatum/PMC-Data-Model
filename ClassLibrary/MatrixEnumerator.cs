@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
+    /// <summary>
+    /// Matrix enumerator class
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class MatrixEnumerator<T> : Enumerator<Position<T>> where T : struct
     {
         public MatrixEnumerator() { }
