@@ -27,9 +27,9 @@ namespace ClassLibrary.Tests
 
             var n = new Random();
 
-            for (int i = 0; i < MAX_POINTS; i++)
+            for (int i = 0; i < MAX_POSITIONS; i++)
             {
-                for (int j = 0; j < MAX_POSITIONS; j++)
+                for (int j = 0; j < MAX_POINTS; j++)
                 {
                     pos.Add(new Point<double>(n.NextDouble(), n.NextDouble()));
                 }
@@ -61,6 +61,8 @@ namespace ClassLibrary.Tests
             Position<double> pos2 = new Position<double>();
             pos2.Add(p2);
             matrix.Add(pos2);
+            Assert.True(matrix.Contains(pos2));
+            matrix.Remove(pos2);
             Assert.False(matrix.Contains(pos2));
         }
 
