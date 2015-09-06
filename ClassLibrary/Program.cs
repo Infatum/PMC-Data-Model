@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Console;
 
 namespace ClassLibrary
 {
@@ -14,16 +13,16 @@ namespace ClassLibrary
             Position<int> p = new Position<int>();
             Point<int> point = new Point<int>(3, 18);
             Point<int> point2 = new Point<int>(19, 29);
-            WriteLine(p.Count);
+            Console.WriteLine(p.Count);
             p.Add(point);
             p.Add(point2);
-            WriteLine(p.Count);
-            WriteLine(p.Contains(point2));
+            Console.WriteLine(p.Count);
+            Console.WriteLine(p.Contains(point2));
             p.Remove(point2);
-            WriteLine(p.Count);
+            Console.WriteLine(p.Count);
 
-            WriteLine(p.Contains(point2));
-            ReadKey();
+            Console.WriteLine(p.Contains(point2));
+            Console.ReadKey();
         }
     }
 }
